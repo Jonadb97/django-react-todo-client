@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 34, 29);
+  color:rgb(234, 220, 238);
+  font-family: Poppins, sans  -serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  padding: 1em;
+}
+
+.link {
+  color:rgb(243, 217, 144);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link:hover{
+  font-size: 1.2em;
+  color: white;
+}
+
+.link:hover.link:visited{
+  color: white;
+  font-size: 1.2em;
+}
+
+.link:visited {
+  color:rgb(243, 217, 144);
+  text-decoration: none;
+}
+
+.tarea-item {
+  background-color: rgb(60, 71, 42);
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+#task-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#task-form > * {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: rgb(60, 71, 42);
+  color:rgb(243, 217, 144);
+  border: none;
+  border-radius: 0.5em;
+}
+
+#task-form > button {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#task-form > button:hover {
+  transform: scale(1.2);
+  
+}
+
+#task-form > span {
+  background-color: brown;
+}
+
+.tarea-item {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tarea-item:hover{
+  background-color: rgb(111, 142, 61);
+  color: white;
+}
+
+.tarea-item:active {
+  transform: scale(1.5);
+  background-color: rgb(172, 231, 77);
+}
+
+.delete-button {
+  transition: 0.3s;
+  background-color: brown;
+  margin: 0.5em;
+  padding: 0.5em;
+  color:rgb(243, 217, 144);
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.delete-button:hover{
+  transform: scale(1.2);
+}
+
